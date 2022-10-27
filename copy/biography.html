@@ -1,108 +1,124 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
     <head>
-        <title> Біографія</title>
-
-        <style type="text/css">
-
-            ul li
-            {
-                list-style: none;
-            }
-
-            #base p {
-                background-color: aqua;
-                color: red;
-            }
-            #kid p {
-                background-color: brown;
-                color: aliceblue;
-            }
-            #school p {
-                background-color: chocolate;
-                color: chartreuse;
-            }
-            #outschool p {
-                background-color: darkblue;
-                color: white;
-            }
-            #univer p {
-                background-color: cadetblue;
-                color: rgb(255, 0, 0);
-            }
-
-            .btt {
-                background-color: blue;
-                width: 25%;
-                border: 3.5px solid rgb(255, 0, 0);
-            }
-            a .btt {
-                color: white;
-            }
-            .btn:hover {
-                background-color: rgb(0, 255, 0);
-                color: black;
-            }
-            .btt:active { 
-                background-color: magenta;
-            }
-
-        </style>
-
+        <meta charset="UTF-8">
+        <title></title>
     </head>
-<body>
-    <h1> Автобіографія Букатюка Івана Степановича </h1>
-<a href="index.html" target = "_blank"> Назад на головну </a>
-<h3>Зміст</h3>
+    <style type="text/css">
+        .btn {
+            background-color: blue;
+            width: 10%;
+            border: 2px solid red;
+        }
+        a .btn {
+            color: white;
+        }
+        .btn:hover {
+            background-color: magenta;
+            color: black;
+        }
+        .btn:active { 
+            background-color: yellow;
+        }
+        #info p {
+            background-color: aqua;
+            color: red;
+        }
+        #childhood p {
+            background-color: brown;
+            color: aliceblue;
+        }
+        #school p {
+            background-color: chocolate;
+            color: chartreuse;
+        }
+        #activity p {
+            background-color: darkblue;
+            color: white;
+        }
+        #univercity p {
+            background-color: cadetblue;
+            color: rgb(255, 0, 0);
+        }
+    </style>
+    <body>
+        <h1 id="main"> Автобіографія Валька Назара Андрійовича</h1>
+        <a href="index.html">Назад на головну</a>
 
-<ul>
-    <li><a href="#base"><button class="btt">Базова інформація</button></a></li>
-    <li><a href="#kid"><button class="btt">Дитинство</button></a></li>
-    <li><a href="#school"><button class="btt">Школа</button></a></li>
-    <li><a href="#univer"><button class="btt">Університет</button></a></li>
-    <li><a href="#outschool"><button class="btt">Поза школою</button></a></li>   
-</ul>
+        <h3 id="menu">Зміст</h3>
+        <p>
+            <ul>
+                <li>
+                    <a class="a1" href="#info"><button class="btn">Базова інформація</button></a>
+                </li>
+                <li>
+                    <a class="a2" href="#childhood"><button class="btn">Дитинство</button></a>
+                </li>
+                <li>
+                    <a class="a3" href="#school"><button class="btn">Шкільні роки</button></a>
+                </li>
+                <li>
+                    <a class="a4" href="#activity"><button class="btn">Поза школою</button></a>
+                </li>
+                <li>
+                    <a class="a5" href="#univercity"><button class="btn">Універитет</button></a>
+                </li>
+            </ul>
+        </p>
 
- 
-                        
-<div id="base"></div>
-    <article>
-        <h3>Базова інформація</h3> 
- <p>Хлопець, 17 років. Народовся 20.01.2005. Розмовляю українською мовою. Пробую вчити ангылйську. 
-Навчаюся на факультеті інформатики та математики. Прямо зараз пишу виконую практичну роботу с WEB-Дизайну</p> </article>
- 
-<div id="kid"></div>
-    <article>
-        <h3>Дитинство</h3>
-<p>Зростав у сім'ї з трьох людей. Проводив багато часу з сусідніми дітьми. 
-Літом їхав у дитячі табори. Вивчав англійську мову, та любив грати в відеоігри.</p> </article>
 
-<div id="school"></div>
-    <article>
-        <h3>Шкільні роки</h3>
-<p>Навчався у Марківському ліцеї. Навчався дуже добре. 
-Отримав похвальні листи за кожний рік навчання. Особливо сподовся 10 
-клас тому що все було легко, не душно і взагалі в кайф. Улюбленим предметом була англійська мова. </p> </article>
+        <article id="info">
+            <h2>Базова інформація</h2>
+            <p>Мене звати Валько Назар. Мені вісімнадцять років. Я навчаюся на першому курсі Прикарпатського університету 
+                ім. Василя Стефаника. Народився я і виріс у наймальовничішому кукточку Карпат - місті Івано-Франківську.
+                У мене багато друзів. Програмування та англійська мова - моє хоббі. а ще я люблю спорт.
+            </p>
+            <a href="biography.html#menu">До змісту</a>
+        </article>
 
-<div id="outschool"></div>
-    <article>
-        <h3>Поза школою</h3>
-<p>Поза школою нічим кримінальним не займався. Поза школою відпочивав від школи якщо бути точним
-Зазвичай просто грав в відеоігри або в карти. В принципі те що й всі. От якби я займався вивченням HTML і CSS
-замість цего всього, то здав би цю практичну за пару, але маємо те що маємо...
-</p>
-</article>
 
-<div id="univer"></div>
-    <article>
-        <h3>Університет</h3>
-<p>Після школи здав НМТ, напевно найлегший вступний тест в світі. 
-Вступив в Прикарпатський національний університет імені Василя Стефаника.
-Вибрав факультет математики та інформатики. Спеціальність обрав - Комп'ютерні
-науки. Уже 3 тижні навчаюся в цьому закладі. Поки що не сильно грузять. Звичайно є і душні предмети
-по типу мат аналізу, но думаю вивезу. </p> </article>
+        <article id="childhood">
+            <h2>Дитинство</h2> 
+            <p>В дитинстві я нічим особливим від однолітків не відрізнявся. В два роки пішов у дитячий садок. А там - перші віршики, дитячі пісеньки, свята. 
+                Потім танці та плавання. Моє дитинство пройшло у рідному місті. Часто проводив літо у селі. В цілому класно, бо обов'язків ще дуже мало.
+                 
+            </p>
+            <a href="biography.html#menu">До змісту</a>
+        </article>
 
-<a id ="up" href=#>Уверх</a> 
 
-</body>
+        <article id="school">
+            <h2>Шкільні роки</h2>
+            <p>Аж оось і школа. Цілих \\8 років і ще 3 роки ліцею. Ну що ж, школа, як школа. Продовжував ходити на плавання. А також в мої обов'язки входив
+                мій молодший брат Ростислав.Між нами різниця 3 роки.Тому після уроків я забирав з групи і мого "першачка". Старші класи пролетіли дуже швидко -
+                5,6,7,8.Навіть не знаю, так, нічого особливого. Правда класний керівник у нас була класна.  З нею ми часто їздили на екскурсії. Ще кілька слів 
+                про ліцей. "...Фізико-технічний, слово це магічне...." якось так. Ліцейні роки- класні. Це подорожі, змагаггя, екскурсії, креативні викладачі
+                і багато нових друзів.
+            
+            </p>
+            <a href="biography.html#menu">До змісту</a>  
+        </article>
+
+
+        <article id="activity">
+            <h2>Поза школою</h2>
+            <p>Поза школою... Моє шкільне життя було налаштоване так, що на "поза школу" часу практично не залишалось. Додаткові заняття, підготовка до ЗНО
+                Заледве знаходив час, щоб піти погуляти з друзями в неділю, і то не кожну. Але спорт я люблю. Тому 2 заняття в тиждень в спортивному залі - мої.
+
+            </p>
+            <a href="biography.html#menu">До змісту</a>
+        </article>
+
+
+        <article id="univercity">
+            <h2>Університет</h2>
+            <p>А тут все просто. Вже пройшло аж 2 місяці мого перебування в університеті, практично нічого. Я староста групи та навчають на факультеті математики
+                та інформатики. Спеціальність - "Комп'ютерні науки". Група класна, викладачі цікаві, хоча і не все зрозуміло. Але, я знаю, що все буде добре. </p>
+            <a href="biography.html#menu">До змісту</a>
+        </article>
+
+
+        <hr>
+        <a href="#main">Уверх</a>
+    </body>
 </html>
