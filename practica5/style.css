@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+   }
+
+.item-wrap p {
+    margin: 50px 25px 25px 25px;
+   }
+
+.row {
+    width: 100%;
+  }
+
+@media (min-width: 992px) {
+ .col-lg-4 {
+   width: 33.33%;
+ }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+ .col-md-6 {
+   width: 50%;
+ }
+ .col-md-12 {
+   width: 100%;
+ }
+}
+@media (max-width: 768px) {
+
+ .col-sm-12 {
+   width: 100%;
+ }
+}
+
+
+.item {
+ float: left;
+ position: relative;
+}
+
+.item-wrap {
+ position: relative;
+ border: 5px solid yellowgreen;
+ border-radius: 10px;
+ margin: 10px;
+}
+
+.item-wrap div {
+ position: absolute;
+ top: 0;
+ right: 0;
+ font-family: monospace;
+ border-radius: 5px;
+ padding: 10px;
+ font-size: 15px;
+}
+
+.one-th {
+ background-color: midnightblue;
+ color: white;
+}
+
+.two-th {
+ background-color: darkorange;
+ color: white;
+}
+
+.three-th {
+ background-color: darkcyan;
+ color: white;
+}
