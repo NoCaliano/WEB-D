@@ -1,0 +1,80 @@
+table, th, td {
+                border: 1px solid black;;
+}
+
+.block1 {
+    background-color: aqua;
+    font-family: 'Lobster', cursive;
+}
+
+.block2 {
+    background-color:honeydew;
+    font-family: 'Lobster', cursive;  
+}
+
+.block3 {
+    background-color:gold;
+    font-family: 'Lobster', cursive;  
+}
+
+.block4 {
+    background-color: darkorange;
+    font-family: 'Lobster', cursive;
+}
+
+.zag1 {
+    border: 3px solid black;
+    text-align: center;
+    background-color: brown;  
+    font-size: 19.2px; 
+    font-family: 'Caveat', cursive;
+    color:floralwhite;
+}
+
+.zag2 {
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(165, 128, 42);
+    font-size: 19.2px;
+    font-family: 'Caveat', cursive;
+    color:cyan;
+}
+
+.zag3 {
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(54, 165, 42);  
+    font-size: 19.2px; 
+    font-family: 'Caveat', cursive;
+    color:blueviolet;
+}
+
+.zag4 {
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(42, 165, 134); 
+    font-size: 19.2px; 
+    font-family: 'Caveat', cursive;
+    color:greenyellow 
+}
+
+p {
+    color:deeppink
+}
+
+table {
+    color:royalblue
+}
+
+ul {
+    color:magenta
+}
+
+.zag5, .zag6, .zag7 {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+img {
+    display: block; margin: 0 auto;
+}
